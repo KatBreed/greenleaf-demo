@@ -1,4 +1,6 @@
 import React from "react";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 const galleryImages = [
   { src: "/images/lush-backyard.jpg", alt: "Lush backyard transformation" },
@@ -21,12 +23,14 @@ export default function Gallery() {
         {galleryImages.map((image, idx) => (
           <div className="col-md-4 col-sm-6" key={idx}>
             <div className="border rounded shadow-sm overflow-hidden">
-              <img
-                src={image.src}
-                alt={image.alt}
-                className="img-fluid w-100"
-                style={{ objectFit: "cover", height: "250px" }}
-              />
+              <Zoom>
+                <img
+                  src={image.src}
+                  alt={image.alt}
+                  className="img-fluid w-100"
+                  style={{ objectFit: "cover", height: "250px" }}
+                />
+              </Zoom>
             </div>
           </div>
         ))}
