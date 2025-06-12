@@ -18,10 +18,11 @@ A modern, responsive brochure website for a fictional garden design and maintena
 - **Contact** – Email form with EmailJS integration
 - **Footer** – Consistent footer with contact info and links
 
-## 🚀 Deployment
+## 🚀 Deployment and Source Code
 
 This site is deployed on **Cloudflare Pages**:  
-[🔗 Visit Live Demo](https://greenleaf-demo.pages.dev) ← *(replace with your actual URL)*
+[🔗 Visit Live Demo](https://greenleaf-demo-2ex.pages.dev/)
+[🔗 Source Code](https://www.github.com/KatBreed/greenleaf-demo)
 
 ## ✉️ Contact Form Setup
 
